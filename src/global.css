@@ -1,0 +1,42 @@
+/* dark theme */
+
+html {
+  height: calc(100% - 2px);
+  border-top: 2px solid #2bbc8a;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  max-width: 48rem;
+  height: 100%;
+  background-color: #1d1f21;
+  color: #c9cacc;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+a {
+  color: #2bbc8a;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  color: #666;
+  font-size: 11px;
+  margin: 0;
+  padding: 1rem;
+  margin-top: auto;
+}
